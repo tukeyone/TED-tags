@@ -13,7 +13,7 @@ library(stringr)
 
 
 ## import
-ted_talks <-read_csv("ted_talks.csv")
+ted_talks <-read_csv("data/ted_talks.csv")
 ted_data <- ted_talks %>% 
   select(title, main_speaker, views, tags, ratings)
 
