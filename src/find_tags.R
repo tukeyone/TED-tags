@@ -16,7 +16,6 @@ library(lubridate)
 args <- commandArgs(trailingOnly = TRUE)
 input_file <- args[1]
 output_file <- args[2]
-
 ted_data <- read_csv(input_file)
 
 
@@ -26,8 +25,7 @@ ted_data$tags <- ted_data$tags %>%
   str_replace_all('\\]', '') %>% 
   str_replace_all('\'', '') %>% 
   str_replace_all(' ', '')  
-
-ted_data <-mutate(ted_data, tags =  str_split(tags, ','))
+ted_data <-mutate(ted_data, tags = str_split(tags, ','))
 
 
 tag_tally_table <- function(data, data_year, num_entires) {
@@ -54,10 +52,8 @@ overall <-tag_tally_table(ted_data$tags, "overall", nrow(ted_data))
 
 data_16 <- filter(ted_data, year(film_date) == 2016)
 tag_16  <- tag_tally_table(data_16$tags, 2016, nrow(data_16))
-
 data_11 <- filter(ted_data, year(film_date) == 2011)
 tag_11  <- tag_tally_table(data_11$tags, 2011, nrow(data_11))
-
 data_06 <- filter(ted_data, year(film_date) == 2006)
 tag_06  <- tag_tally_table(data_06$tags, 2006, nrow(data_06))
 
