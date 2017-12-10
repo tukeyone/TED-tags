@@ -1,11 +1,15 @@
+# Cleans raw data 
+# Outputs a csv containing cleaned data
 #
+# Run from the command-line
+# Parameters: input file (data/ted_talks.csv)
+#             output file (results/clean_data.csv)
 #
-#
-#
+# Usage Example: Rscript   clean_data.R data/ted_talks.csv   results/clean_data.csv
 #
 #  Author: Charley Carriero
 #  Date: Dec-2017-07
-#####################################################################
+##########################################################################################
 
 ## dependencies
 library(tidyverse)

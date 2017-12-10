@@ -1,11 +1,16 @@
-#   Summarize talk-tags
+#  Summarizes talk-tags
+#  Ouputs a summary table of tags and their proportional frequency
+#  per year. 
+#  
+# Run from the command-line
+# Parameters: input file (results/clean_data.csv)
+#             output file (results/tag_tallys.csv)
 #
+# Usage Example: Rscript     find_tags.R data/clean_data.csv    results/tag_tallys.csv
 #
-#
-#
-#
-#
-################################################################
+#  Author: Charley Carriero
+#  Date: Dec-2017-07
+#########################################################################################
 
 library(tidyverse)
 library(readr)

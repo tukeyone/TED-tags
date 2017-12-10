@@ -1,10 +1,14 @@
-#  Plot tag tally's
+# Generates a bar plot of annual tag tallys
 #
+# Run from the command-line
+# Parameters: input file (results/tag_tallys.csv)
+#             output file (results/tag_tally_plot.png)
 #
+# Usage Example: Rscript   find_tags.R results/tag_tallys.csv  results/tag_tally_plot.png
 #
-# 
-#
-###########################################################
+#  Author: Charley Carriero
+#  Date: Dec-2017-07
+##########################################################################################
 
 library(tidyverse)
 library(readr)
