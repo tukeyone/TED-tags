@@ -46,7 +46,7 @@ As shown above, the film-date for each talk is recoreded as UNIX timestamp. Befo
 
 The following is a visualization of the 10 most popular tags in 2016, 2011, 2016 compared to the top 10 tags over all-time.
 
-![](tag_tally_plot.png)
+![](/Users/charleycarriero/Documents/MDS/522/TED-tags/results/tag_tally_plot.png)
 
 
 
