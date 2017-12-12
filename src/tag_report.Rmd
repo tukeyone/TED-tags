@@ -16,6 +16,7 @@ In this simple analysis project I have explored how the topic of TED talks have 
 library(tidyverse)
 library(readr)
 library(knitr)
+library(ezknitr)
 ```
 
 Below is a preview of the raw data. 
