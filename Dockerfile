@@ -7,6 +7,9 @@ FROM rocker/tidyverse
 # then install the ezknitr, lubridate, readr and stringr
 
 RUN Rscript -e "install.packages('ezknitr', repos = 'https://mran.revolutionanalytics.com/snapshot/2017-12-11')"
+
 RUN Script -e "install.packages('lubridate', repos = 'https://mran.revolutionanalytics.com/snapshot/2017-12-11')"
+
 RUN Script -e "install.packages('readr', repos = 'https://mran.revolutionanalytics.com/snapshot/2017-12-11')"
+
 RUN Script -e "install.packages('stringr', repos = 'https://mran.revolutionanalytics.com/snapshot/2017-12-11')"
