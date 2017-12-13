@@ -1,7 +1,10 @@
 # TED-tags
 
 
-Demonstrates an automated analysis pipeline.    
+Demonstrates an automated analysis pipeline.   
+
+Author: Charley Carriero <br/>
+Date: 13-Dec-2017 
 
 ----
 <br/>
