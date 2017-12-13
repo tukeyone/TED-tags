@@ -16,8 +16,11 @@ Using a dataset obtained from [kaggle](https://www.kaggle.com/rounakbanik/ted-ta
 Raw data can be found in the `data` directory. A summarized report can be found in the `doc` directory. 
 
 <br/>
+
 ## Pipeline Visualization
+
 A dependancy diagram of the Makefile can be seen below. 
+
 ![](Makefile.png)
 
 (diagram generated via [makefile2graph](https://github.com/lindenb/makefile2graph))
