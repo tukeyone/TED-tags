@@ -26,6 +26,7 @@ A dependancy diagram of the Makefile can be seen below.
 (diagram generated via [makefile2graph](https://github.com/lindenb/makefile2graph))
  
  <br/>
+ 
 ## Usage Instructions
 
 This project is designed to be run using Docker. If not previously installed, please ensure that you have installed and opened Docker before proceeding with the following instructions. 
