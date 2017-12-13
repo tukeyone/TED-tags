@@ -46,7 +46,7 @@ As shown above, the film-date for each talk is recoreded as UNIX timestamp. Befo
 
 The following is a visualization of the 10 most popular tags in 2016, 2011, 2016 compared to the top 10 tags over all-time.
 
-![](/Users/charleycarriero/Documents/MDS/522/TED-tags/results/tag_tally_plot.png)
+![](../results/tag_tally_plot.png)
 
 I was actually quite surprised when I first looked at this graph. There is a large shift in theme popularity starting in 2016. Years like 2006 and 2011 have many unique topics share popularlity. For example, there are just as many talks on science as there are on culture. With such broad category names it is not surprising that talks on science and cuture are two of the most common talk themes since the advent of TED. What is more interesting is that science and culture are not even among the top 10 themes of 2016. Contrast to previous years the tags of 2016 all share a common idea. 2016 is focused on human improvement. 2016 in the TED-world was about social change, communication and humanity. It will be interesting to see if this shift towards social psychology talks is sustained in 2017. 
 
