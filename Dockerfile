@@ -8,10 +8,10 @@ FROM rocker/tidyverse
 
 RUN Rscript -e "install.packages('ezknitr', repos = 'https://mran.revolutionanalytics.com/snapshot/2017-12-11')"
 
-RUN Script -e "install.packages('lubridate', repos = 'https://mran.revolutionanalytics.com/snapshot/2017-12-11')"
+RUN RScript -e "install.packages('lubridate', repos = 'https://mran.revolutionanalytics.com/snapshot/2017-12-11')"
 
-RUN Script -e "install.packages('readr', repos = 'https://mran.revolutionanalytics.com/snapshot/2017-12-11')"
+RUN RScript -e "install.packages('readr', repos = 'https://mran.revolutionanalytics.com/snapshot/2017-12-11')"
 
-RUN Script -e "install.packages('stringr', repos = 'https://mran.revolutionanalytics.com/snapshot/2017-12-11')"
+RUN RScript -e "install.packages('stringr', repos = 'https://mran.revolutionanalytics.com/snapshot/2017-12-11')"
 
-RUN Script -e "install.packages('packrat', repos = 'https://mran.revolutionanalytics.com/snapshot/2017-12-11')"
+RUN RScript -e "install.packages('packrat', repos = 'https://mran.revolutionanalytics.com/snapshot/2017-12-11')"
